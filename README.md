@@ -1,4 +1,4 @@
-# 职场高情商沟通教练 / Workplace EQ Communication Coach
+# 知己术 · 越用越懂你的职场高情商沟通教练 / ZhiJiShu — Workplace EQ Communication Coach
 
 个性化职场沟通教练，越用越懂你。先建立你的沟通风格画像（四种方式：授权分析钉钉/飞书聊天记录、发聊天截图、选择题测评、直接对话），并持续沉淀同事画像与长期记忆；对象是老板/领导时自动启用「老板视角」方法论。每个场景生成 2-3 个可直接复制发送的话术版本，附策略说明与对方反应预判。
 
@@ -23,7 +23,7 @@
 
 ## 数据与隐私
 
-- 个人数据（profile.md 画像、people.md 同事画像、memory.md 长期记忆）**只存本机**，默认在 `~/.eq-comm-coach/`；QwenWork 环境复用 `~/.qwenworkcn/eq-comm-coach/`；可用环境变量 `EQ_COACH_DATA` 覆盖
+- 个人数据（profile.md 画像、people.md 同事画像、memory.md 长期记忆）**只存本机**，默认在 `~/.zhijishu`；旧版数据 `~/.qwenworkcn/eq-comm-coach` 自动沿用；可用环境变量 `EQ_COACH_DATA` 覆盖
 - 仓库与 `.skill` 分享包**只含技能本体**，不含任何个人数据
 - 说「清空全部数据」可一键删除本机教练数据（移入废纸篓，可恢复）；说「删掉关于X的记录」可定向删除
 - 聊天记录分析需明确授权并预告范围；只分析用户本人发送的消息；画像只存风格级笔记，不存原始聊天内容
