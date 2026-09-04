@@ -1,0 +1,97 @@
+examples:
+  - id: chat-profile
+    title:
+      zh: 办公软件建档
+      en: Profile from Office Apps
+    description:
+      zh: 授权后分析钉钉/飞书真实聊天记录，自动提炼沟通风格画像
+      en: Analyze your DingTalk/Feishu chat history (with consent) to build the style profile automatically
+    prompt:
+      zh: |-
+        我想通过授权分析我的{{钉钉/飞书}}聊天记录来建立沟通画像，不用做选择题
+      en: |-
+        Analyze my {{DingTalk/Feishu}} chat history with my consent to build the communication profile, no quiz needed.
+  - id: screenshot-profile
+    title:
+      zh: 截图建档
+      en: Profile from Screenshots
+    description:
+      zh: 不对接任何软件，发几张聊天截图（微信也行）让教练分析风格
+      en: No integration needed — send a few chat screenshots (WeChat works too) for style analysis
+    prompt:
+      zh: |-
+        我不想对接办公软件，接下来我会发几张日常聊天截图（含微信），请分析我的沟通风格并建立画像
+      en: |-
+        I don't want to connect any office app. I'll send a few chat screenshots (including WeChat) — analyze my communication style and build the profile.
+  - id: generate-scripts
+    title:
+      zh: 场景话术生成
+      en: Generate Scenario Scripts
+    description:
+      zh: 按已存画像，为具体职场场景生成 2-3 版可直接发送的话术
+      en: Generate 2-3 profile-matched, ready-to-send script versions for a specific scenario
+    prompt:
+      zh: |-
+        帮我按我的沟通画像生成话术：
+
+        场景：{{如：同事答应周三给方案，现在还没给}}
+        对象：{{领导/同事/下属/客户}}
+        我想达到的效果：{{如：催到东西又不得罪人}}
+      en: |-
+        Generate scripts based on my saved communication profile:
+
+        Scenario: {{e.g., a coworker promised a plan by Wednesday but hasn't delivered}}
+        Counterpart: {{manager/coworker/report/client}}
+        Desired outcome: {{e.g., nudge them without causing offense}}
+  - id: boss-scenario
+    title:
+      zh: 老板视角话术
+      en: Boss-Lens Scripts
+    description:
+      zh: 涉及领导的场景：先分析老板会怎么想，再给话术
+      en: Boss-related scenarios — analyze how the boss thinks first, then give the scripts
+    prompt:
+      zh: |-
+        我要跟老板谈{{如：项目延期}}，请先分析老板会怎么想、最关心什么、可能追问什么，再给我话术
+
+        背景：{{补充关键背景，如延期原因、目前进展}}
+      en: |-
+        I need to talk to my boss about {{e.g., a project delay}}. First analyze how the boss will think, what they care about most, and what they'll likely ask, then give me the scripts.
+
+        Background: {{key context, e.g., cause of delay and current progress}}
+  - id: view-edit-profile
+    title:
+      zh: 查看或调整画像
+      en: View or Edit Profile
+    description:
+      zh: 查看已保存的沟通风格画像，或让教练帮你微调
+      en: View the saved communication style profile or ask the coach to adjust it
+    prompt:
+      zh: |-
+        看看我的沟通风格画像，帮我{{如：语气再直接一点}}
+      en: |-
+        Show my communication style profile and {{e.g., make the tone a bit more direct}}.
+  - id: rewrite-feedback
+    title:
+      zh: 重写并校准偏好
+      en: Rewrite and Calibrate
+    description:
+      zh: 对某次话术不满意，让教练重写并记住你的偏好
+      en: Give feedback on a previous script, have it rewritten, and let the coach remember your preference
+    prompt:
+      zh: |-
+        刚才那版话术{{如：太正式了}}，帮我重写一版{{如：更像平时和同事说话的语气}}，并记住我的偏好
+      en: |-
+        The previous script felt {{e.g., too formal}}. Rewrite it {{e.g., more like how I usually talk to coworkers}} and remember my preference.
+  - id: remember-context
+    title:
+      zh: 记住我说的
+      en: Remember What I Share
+    description:
+      zh: 把同事特点、项目进展、自己的情况等告诉教练，沉淀进长期记忆
+      en: Tell the coach durable facts (colleague traits, project status, your context) to persist in long-term memory
+    prompt:
+      zh: |-
+        记住这个：{{如：聂老师特别抠细节，下次跟他同步要带数据截图；我下周要跟他过课表}}
+      en: |-
+        Remember this: {{e.g., Teacher Nie is very detail-oriented — bring data screenshots next time; I'll review the schedule with him next week}}
