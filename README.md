@@ -21,6 +21,8 @@
 
 首次使用会引导你选择建档方式（连接办公软件 / 发截图 / 测评 / 直接对话）。
 
+不想从零描述时，可先翻 [高频职场场景速查表](scenarios.md)，20 个高频场景各配一句话策略起点。
+
 ## 数据与隐私
 
 - 个人数据（profile.md 画像、people.md 同事画像、memory.md 长期记忆）**只存本机**，默认在 `~/.zhijishu`；旧版数据 `~/.qwenworkcn/eq-comm-coach` 自动沿用；可用环境变量 `EQ_COACH_DATA` 覆盖
@@ -36,6 +38,8 @@
 | SKILL.md | 核心流程与规则 |
 | question-bank.md | 测评题库、聊天/截图分析指引、画像模板 |
 | boss-lens.md | 老板视角方法论（向上管理） |
+| scenarios.md | 高频职场场景速查表（20 个场景策略起点） |
+| examples/ | 示例输入与输出（通用 Agent Skills 规范） |
 | .skill-metadata.yaml | QwenWork 推荐查询（其他 agent 可忽略） |
 | README.md | 本说明 |
 
