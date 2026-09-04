@@ -92,6 +92,6 @@ examples:
       en: Tell the coach durable facts (colleague traits, project status, your context) to persist in long-term memory
     prompt:
       zh: |-
-        记住这个：{{如：聂老师特别抠细节，下次跟他同步要带数据截图；我下周要跟他过课表}}
+        记住这个：{{如：X老师特别抠细节，下次跟他同步要带数据截图；我下周要跟他过课表}}
       en: |-
-        Remember this: {{e.g., Teacher Nie is very detail-oriented — bring data screenshots next time; I'll review the schedule with him next week}}
+        Remember this: {{e.g., Teacher X is very detail-oriented — bring data screenshots next time; I'll review the schedule with him next week}}
